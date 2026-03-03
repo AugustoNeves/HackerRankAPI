@@ -11,6 +11,8 @@ ASP.NET Core (.NET 10) REST API that returns the first _n_ Hacker News best stor
    - `dotnet run --project src/HackerRankAPI.Api`
 3. Call endpoint:
    - `GET /api/stories/best?n=10`
+4. Explore Swagger UI:
+   - `http://localhost:5272/swagger`
 
 ## Response Contract
 
@@ -103,8 +105,8 @@ Swagger is enabled for API exploration and contract documentation.
 
 When running locally (default profile):
 
-- Swagger UI: `http://localhost:5078/swagger`
-- OpenAPI JSON: `http://localhost:5078/swagger/v1/swagger.json`
+- Swagger UI: `http://localhost:5272/swagger`
+- OpenAPI JSON: `http://localhost:5272/swagger/v1/swagger.json`
 
 ### What is documented
 
