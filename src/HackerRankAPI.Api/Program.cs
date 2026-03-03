@@ -93,6 +93,8 @@ app.UseRateLimiter();
 
 app.UseAuthorization();
 
+app.MapGet("/", () => Results.Redirect("/swagger/index.html"))
+    .ExcludeFromDescription();
 app.MapControllers();
 
 app.Run();
