@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/HackerRankAPI.Api/HackerRankAPI.Api.csproj" />
+    <Project Path="src/HackerRankAPI.Application/HackerRankAPI.Application.csproj" />
+    <Project Path="src/HackerRankAPI.Domain/HackerRankAPI.Domain.csproj" />
+    <Project Path="src/HackerRankAPI.Infrastructure/HackerRankAPI.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/HackerRankAPI.Application.Tests/HackerRankAPI.Application.Tests.csproj" />
+    <Project Path="tests/HackerRankAPI.Infrastructure.Tests/HackerRankAPI.Infrastructure.Tests.csproj" />
+  </Folder>
+</Solution>
